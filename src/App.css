@@ -42,7 +42,7 @@
 }
 
 .business-card {
-  max-width: 400px;
+  max-width: auto;
   margin: 0 auto;
   padding: 20px;
   border-radius: 10px;
@@ -58,6 +58,7 @@
   height: auto;
   border-radius: 50%;
   margin-bottom: 15px;
+  object-fit: cover; /* or 'contain' depending on your requirement */
 }
 
 .contact-info h1 {
