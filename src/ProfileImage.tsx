@@ -1,5 +1,7 @@
 import React from 'react';
 import profileImage from "./assets/MP.jpg";
+import './App.css';
+
 
 const ProfileImage: React.FC = () => {
   return (
