@@ -1,6 +1,6 @@
 import React from 'react';
 import ProfileImage from './ProfileImage';
-import ContactInfo from './ContactInfo.tsx';
+import ContactInfo from './ContactInfo';
 import SocialLinks from './SocialLinks';
 import './App.css';
 
