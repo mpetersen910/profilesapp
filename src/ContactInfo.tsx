@@ -3,11 +3,11 @@ import React from 'react';
 const ContactInfo: React.FC = () => {
   return (
     <div className="contact-info">
-      <h1>Your Name</h1>
-      <p>Software Engineer</p>
+      <h1>Michael Petersen</h1>
+      <p>Software Engineer and Business Consultant</p>
       <p>Atlanta, GA</p>
-      <p>Email: your.email@example.com</p>
-      <p>Phone: (123) 456-7890</p>
+      <p>Email: mpetersen910@gmail.com</p>
+      <p>Phone: (630) 659-8130</p>
     </div>
   );
 };
