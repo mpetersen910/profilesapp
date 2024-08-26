@@ -1,0 +1,144 @@
+{
+  "version": "36.0.15",
+  "artifacts": {
+    "amplify-profilesapp-mpete-sandbox-d0379e2e40.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "amplify-profilesapp-mpete-sandbox-d0379e2e40.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "amplify-profilesapp-mpete-sandbox-d0379e2e40": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "amplify-profilesapp-mpete-sandbox-d0379e2e40.template.json",
+        "terminationProtection": false,
+        "tags": {
+          "amplify:deployment-type": "sandbox",
+          "created-by": "amplify"
+        },
+        "validateOnSynth": false,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/4050db7d531dd81a66866146da54f6c90a562c50f6996197815a083bedcecea4.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "amplify-profilesapp-mpete-sandbox-d0379e2e40.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-${AWS::AccountId}-${AWS::Region}",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "amplify-profilesapp-mpete-sandbox-d0379e2e40.assets"
+      ],
+      "metadata": {
+        "/amplify-profilesapp-mpete-sandbox-d0379e2e40": [
+          {
+            "type": "aws:cdk:stack-tags",
+            "data": [
+              {
+                "Key": "amplify:deployment-type",
+                "Value": "sandbox"
+              },
+              {
+                "Key": "created-by",
+                "Value": "amplify"
+              }
+            ]
+          }
+        ],
+        "/amplify-profilesapp-mpete-sandbox-d0379e2e40/deploymentType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deploymentType"
+          }
+        ],
+        "/amplify-profilesapp-mpete-sandbox-d0379e2e40/region": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "region"
+          }
+        ],
+        "/amplify-profilesapp-mpete-sandbox-d0379e2e40/function/post-confirmation-lambda/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "postconfirmationlambdaServiceRoleD88F89BD"
+          }
+        ],
+        "/amplify-profilesapp-mpete-sandbox-d0379e2e40/function/post-confirmation-lambda/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "postconfirmationlambda195D98D2"
+          }
+        ],
+        "/amplify-profilesapp-mpete-sandbox-d0379e2e40/function/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-profilesapp-mpete-sandbox-d0379e2e40/function/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-profilesapp-mpete-sandbox-d0379e2e40/function/amplifyprofilesappmpetesandboxd0379e2e40functionpostconfirmationlambda3CC16FE6Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappmpetesandboxd0379e2e40functionpostconfirmationlambda3CC16FE6Ref"
+          }
+        ],
+        "/amplify-profilesapp-mpete-sandbox-d0379e2e40/function.NestedStack/function.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "function1351588B"
+          }
+        ],
+        "/amplify-profilesapp-mpete-sandbox-d0379e2e40/definedFunctions": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "definedFunctions"
+          }
+        ],
+        "/amplify-profilesapp-mpete-sandbox-d0379e2e40/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-profilesapp-mpete-sandbox-d0379e2e40/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-profilesapp-mpete-sandbox-d0379e2e40/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/amplify-profilesapp-mpete-sandbox-d0379e2e40/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "amplify-profilesapp-mpete-sandbox-d0379e2e40"
+    },
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    }
+  }
+}
